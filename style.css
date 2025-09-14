@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+section h2 {
+  color: #4CAF50;
+  margin-bottom: 1rem;
+}
+
+/* Project List */
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+#projects li {
+  background: white;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-left: 5px solid #4CAF50;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #aaa;
+  margin-top: 2rem;
+}
